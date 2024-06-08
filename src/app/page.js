@@ -21,6 +21,9 @@ function Board({ squares, xIsNext, onPlay }) {
 
   return (
     <>
+      <div>
+        <h1>Tic Tac Toe</h1>
+      </div>
       {winner ? (
         <p>Winner is: {winner}</p>
       ) : (
